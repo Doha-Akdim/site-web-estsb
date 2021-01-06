@@ -1,0 +1,549 @@
+
+  
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    color: rgb(236, 62, 62);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+header img {
+    margin-left: 1650px;
+}
+
+    
+
+header nav{
+    top: 10px;
+    bottom: 80%;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 35px;
+}
+header nav ul li a{
+    color: #000;
+    text-transform: capitalize;
+    position: relative;
+    font-size: 25px;
+    padding: bottom 5px;
+    transition:  color .5s ease;
+}
+header nav ul li a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: brown;
+    transition: all .5s ease;
+}
+header nav ul li a:hover:after{
+    width: 100%;
+    transition: all .5s ease;
+   
+}
+header nav ul li a:hover{
+    color: rgb(248, 29, 29);
+    transition:  color .5s ease;
+}
+
+.difference {
+    width: 100%;
+    background-image: url(photo/succés.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    height: 100vh;
+        background-size: cover;
+        background-position: center;
+    padding-top: 70px;
+}
+.difference .differencetext{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 30px;
+}
+.difference .differencetext h1{
+    font-size: 50px;
+    padding-top: 70px;
+    color:rgb(85, 110, 224);
+}
+.difference .differencetext h2{
+    color:rgb(231, 235, 29);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 70px;
+}
+#typed{
+    color: red;
+    font-family: 'Abril Fatface';
+    
+}
+
+
+
+
+.estsb {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.estsb .estsbb{
+    margin:     50px;
+   
+}
+.estsb .estsbb h1{
+    font-size: 30px;
+    color: orangered;
+    padding-bottom: 70px;
+}
+.estsb .estsbb p{
+    color: black;
+}
+.estsb .A{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+}
+.estsb .A .A1{
+    width: 400px;
+    padding: 40px;
+}
+
+.estsb .A .A1 i{
+    font-size: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 30px;}
+.estsb .A .A1 p{
+    font-size: 13px;
+    padding: 10px;
+    color:black;
+}
+
+.format{
+    width: 100%;
+    height: 100hv;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(photo/succés.jpg);
+    background-size: cover;
+    background-position: center  ;
+}
+.format .format-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.format .format-text h1{
+    color: white;
+    margin-top: 120px;
+    font-size: 35px;
+}
+.format .format-text p{
+    color: gray;
+    margin-bottom: 30px;
+}
+.format .formats{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.format .formats .format1{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: all .5s ease;
+    margin: 10px;
+    z-index: 1;
+}
+.format .formats .format1 .image{
+    width: 250px;
+}
+.format .formats .format1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.format .formats .format1 p{
+    color: gray;
+}
+.format .formats .format1:hover{
+    filter: grayscale(0);
+    transition: all .5s ease;
+}
+.format .formats .format1:hover h1{
+    color: orangered;
+}
+.format .formats .format1:hover p{
+    color: black;
+}
+
+
+.alumni{
+    width: 100%;
+
+}
+.alumni .alumni-text{
+    padding: 20px;
+}
+.alumni .alumni-text h1{
+    font-size: 35px;
+}
+.alumni .alumni-text p{
+    color: gray;
+}
+.alumni .alumnis{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.alumni .alumni-text  h1{   margin-top: 100px;
+}
+
+.alumni .alumnis .alumni1{
+    width: 500px;
+    background-color: orangered;
+    padding: 20px;
+    box-shadow: 0 3px 30px 1px black;
+    border-radius: 20px;
+    margin: 20px;
+}
+/* Footer contact */
+.cont{
+    width: 100%;
+    /* height: 45vh; */
+    background-color: #000;
+    /* margin-top: 150px; */
+}
+.cont footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont footer .footerdivs{
+    width: 300px;
+    margin-top: 40px;
+}
+.cont footer .footerdivs h1 span{
+    color: orange;
+    font-size: 25px;
+}
+.cont footer .footerdivs h1{
+    margin: 40px;
+    color: #f1f1f1;
+    font-size: 20px;
+}
+.cont footer .footerdivs p{
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.cont footer .footerdivs a{
+    display: block;
+    color: #fff;
+    margin: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all .5s ease;
+}
+.cont footer .footerdivs a:hover{
+    transition: all .5s ease;
+    color: orange;
+}
+.cont footer .footerdivs i{
+    display: block;
+    margin-bottom: 15px;
+    color: white;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.cont footer .footerdivs i:hover{
+    color: orange;
+    transition: all .4s ease;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgb(255, 81, 0);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+#contactform{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 48vh;
+    background-color: rgb(204, 201, 201);
+    overflow: hidden;
+}
+.contact-map{
+    width: 100%;
+    height: 50px;
+    float: 50%;
+    padding-right: 70%;
+}
+#para{
+    font-size: 20px;
+    display: flex;
+}
+#contactform form{
+    position: absolute;
+    top: 479.5%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background: rgba(72, 72, 72,4);
+    padding: 35px;
+    border-radius: 7px;
+}
+.inputs {
+    width: 100%;
+    font-size: 18px;
+    margin: 5px auto;
+    padding: 13px 13px 13px 54px;
+    
+}
+input[name="name"]{
+    background-image: url(photo/personne.png);
+}
+input[name="email"]{
+    background-image: url(photo/email.jpg);
+}
+textarea{
+    background-image: url(photo/comment123.png);
+    height: 150px;
+}
+input[name="name"],
+input[name="email"]
+textarea{
+    background-size: 30px 30px;
+    background-position: 11px 8px ;
+    background-repeat: no-repeat;
+}
+input[name="email"]{
+    background-size: 30px 30px;
+    background-position: 11px 8px ;
+    background-repeat: no-repeat;
+
+}
+textarea{
+    background-size: 30px 30px;
+    background-position: 11px 8px ;
+    background-repeat: no-repeat;
+}
+button{
+    width: 100%;
+    background-color: #3498db;
+    border: 4px solid #fbfbfb;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    padding: 22px 0;
+}
+button:hover{
+    color: #3498db;
+    background-color: #fff;
+
+}
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+   
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.galerie{ 
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+.col-md-4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.col-md-4 img{
+    width: 80%;
+    height: auto;
+}
+.col-md-4 img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
